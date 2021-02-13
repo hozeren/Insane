@@ -107,7 +107,7 @@ cholesterol.
 ```bash
 insane \
     -o bilayer.gro -p topol.top \
-    -x 20 -x 20 -z 10 \
+    -x 20 -y 20 -z 10 \
     -l DPPC:4 -l DIPC:3 -l CHOL:3 \
     -sol W:90 -sol W:10
 ```
